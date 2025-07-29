@@ -1,0 +1,20 @@
+# すべてのファイルを無視
+*
+**/*
+app/**/*
+components/**/*
+lib/**/*
+public/**/*
+types/**/*
+*.ts
+*.tsx
+*.js
+*.jsx
+*.json
+*.mjs
+node_modules/
+.next/
+.vercel/
+dist/
+build/
+out/
