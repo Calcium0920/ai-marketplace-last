@@ -18,6 +18,11 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
   trailingSlash: false,
+  // 追加の無効化設定
+  swcMinify: false,
+  compiler: {
+    removeConsole: false,
+  },
 };
 
 export default nextConfig;
